@@ -184,3 +184,4 @@ artifacts:
 
 ### Run the CodePipeline and Verify it Works
 Head back over to the CodePipeline console, locate the CodePipeline you created previously. When you open it you will see that the Source step succeeded, while the Build step failed. 
+Now that we have finished the configuration, click on the X on the right-hand side of the Build phase. This will trigger CodePipeline to retry the Build phase again. This time you should see the Build phase succeed!
